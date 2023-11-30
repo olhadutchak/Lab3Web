@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+h1, p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+#input-field {
+    color: white;
+    background-color: rgba(68, 64, 89, 1);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: left;
+    height: 100px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: rgb(40, 169, 241);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 15px 0;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(0, 124, 190);
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.selected {
+    background-color: lightblue;
+}
